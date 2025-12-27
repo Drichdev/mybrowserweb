@@ -51,16 +51,26 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex gap-6 mt-8">
             <a
-              href="https://github.com/Drichdev/mybrowser/releases/download/v0.1/Drichsearch-mac.app.zip"
-              className="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-opacity-90 transition"
+              href="https://github.com/Drichdev/mybrowser/releases/download/v0.2/Drichsearch-mac.app.zip"
+              className="px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-opacity-90 transition flex items-center gap-2"
             >
+              <span>↓</span>
               Télécharger Mac
             </a>
+            <a
+              href="https://github.com/Drichdev/mybrowser/releases/download/v0.2/Drichsearch-windows.exe"
+              className="px-8 py-3 border border-white/30 text-white font-semibold rounded-full hover:border-white/50 transition flex items-center gap-2"
+            >
+              <span>↓</span>
+              Télécharger Windows
+            </a>
+          </div>
+          <div className="flex gap-6 mt-4">
             <a
               href="https://github.com/Drichdev/mybrowser"
               className="px-8 py-3 border border-white/30 text-white font-semibold rounded-full hover:border-white/50 transition"
             >
-              Télécharger Windows
+              Repositories
             </a>
           </div>
         </div>
