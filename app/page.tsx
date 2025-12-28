@@ -62,7 +62,7 @@ export default function Home() {
               className="px-8 py-3 border border-white/30 text-white font-semibold rounded-full hover:border-white/50 transition flex items-center gap-2"
             >
               <span>↓</span>
-              Télécharger Windows
+              Télécharger pour Windows 10
             </a>
           </div>
           <div className="flex gap-6 mt-4">
